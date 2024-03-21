@@ -53,11 +53,11 @@ console.log(translate('GE'));
 
 //Ex4
 const subString = (inputString) => {
-    if(inputString.length <= 15){
+    if (inputString.length <= 15) {
         return inputString;
     }
     let sub = "";
-    for(let i =0; i < 10; i++){
+    for (let i = 0; i < 10; i++) {
         sub += inputString[i];
     }
     sub += "...";
